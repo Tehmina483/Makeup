@@ -1,0 +1,68 @@
+ <div class="get-started-container">
+            <div class="get-section">
+            <div class="change-buttons">
+            </div>
+            <div class="media-container">
+                <div class="introduction slide-1">
+                    <div class="get-started-image">
+                        <img src="img/sunglasses-summer.jpg" alt="">
+                    </div>
+                    <div class="work-content">
+                        <h1>Good <span>Design</span></h1>
+                        <h1>Ideas for <span>your</span> fashion</h1>
+                        <p>Let's fashion togather comes with sign in / sign up pages, product listing / product detail,
+                            about, and contact page.</p>
+                        <a href="">Learn more about us</a>
+                    </div>
+                </div>
+                <div class="How-we-do-word slide-1">
+                    <div class="get-started-image"></div>
+                    <iframe width="500" height="315" src="https://www.youtube.com/embed/OB9w8iY9DCg?si=Sucz2F7VTt8zAR-1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <div class="work-content">
+                        <h1>How we do work?</h1>
+                        <p>Over three years in business, We've had the chance to work on a variety of projects, with
+                            companies</p>
+                        <a href="">Work with us</a>
+                    </div>
+
+                </div>
+                <div class="Capabilites slide-1">
+                    <div class="get-started-image">
+                        <img src="img/women-men-looking.jpg" alt="">
+                    </div>
+                    <div class="work-content">
+                        <h1>Capabilites</h1>
+                        <p>Over three years in business, We've had the chance on projects</p>
+                        <a href="">Explore Products</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    .change-buttons{
+        display: flex;
+        justify-content:start;
+        align-items:start;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .change-buttons button{
+        background: none;
+        font-size: 16px;
+        font-weight: 900;
+        color: #717275;
+        border: none;
+        opacity: .7;
+        cursor: pointer;
+    }
+    .change-buttons button:hover{
+        color: #FF4400;
+        opacity: 1;
+        border-bottom: 1px solid #FF4400;
+    }
